@@ -1,0 +1,6 @@
+The library is an object, with the name that is used as alias, and has link to the folder, where your sas datasets are.
+Name or alias can be no longer than 8 characters.
+
+To set the library here is some examples:
+
+libname MYPROJ "\\\sasserver\SASDATA\MyFirstProject" access=readonly; 
